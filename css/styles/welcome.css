@@ -1,0 +1,541 @@
+.welcome{
+    width: 100%;
+    background:#1B3764 ;
+
+}
+
+.welcome__container{
+    max-width: 1440px;
+    display:flex ;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 87px 91px 85px 93px;
+    margin: 0px auto 0px auto;
+}
+
+.welcome__content{
+    max-width: 550px;
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    align-items:flex-start;
+    color: #FFFFFF;
+}
+
+.welcome__content h5{
+    position: relative;
+    font-family: 'Cardo';
+    font-size: 21px;
+    line-height: 36px;
+
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+
+    margin-left: 49px;
+}
+.welcome__content h5::before{
+    content: "";
+    position: absolute;
+    width: 35px;
+    height: 2px;
+    top: 15px;
+    left: -49px;
+    background-image: url("../../assets/welcomeLine.svg");
+ }
+
+.welcome__content h1{
+    font-family: 'Cardo';
+    font-size: 64px;
+    line-height: 78px;
+
+    letter-spacing: 1.3px;
+
+    margin: 10px 0px 24px 0px;
+}
+
+.welcome__content p{
+    font-family: 'Inter';
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #B4C7E7;
+    margin: 0px;
+}
+.welcome__buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 42px 0px 47px 0px;
+}
+.welcome__primary-button{
+    background: #FFCA42;
+    border: 2px solid #FFCA42;
+    border-radius: 0px;
+    padding: 18px 52px 18px 52px;
+    margin: 0px 51px 0px 0px;
+    cursor: pointer;
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+    color: #1B3764;
+}
+.welcome__secondary-button{
+    background: none;
+    border: none;
+    padding: 0px 10px 0px 0px;
+    border-bottom: 1px solid ;
+    cursor: pointer;
+
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 30px;
+
+    letter-spacing: 0.38px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.welcome__content ul{
+    padding:0px 28px 0px 25px ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.welcome__content li{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.welcome__content li::before{
+   content: "";
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   top: 4px;
+   left: -26px;
+   background-image: url("../../assets/dot.svg");
+}
+
+.welcome__content li p{
+    font-family: 'Cardo';
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.48px;
+
+    color: #FFFFFF;
+
+    margin: 0px 0px 10px 0px;
+}
+
+.welcome__content span{
+    font-family: 'Inter';
+    font-size: 17px;
+    line-height: 27px;
+    
+    
+    color: #B4C7E7;
+}
+
+@media (max-width: 1366px) {
+    .welcome__container{
+        padding: 77px 61px 75px 63px;
+        margin: 0px auto 0px auto;
+    }
+    .welcome__content{
+        max-width: 530px;
+    }
+
+    .welcome__content h1{
+        margin: 10px 0px 14px 0px;
+    }
+    
+  }
+
+@media (max-width: 1285px) {
+
+    
+    .welcome__container{
+        padding: 77px 41px 75px 43px;
+        margin: 0px auto 0px auto;
+    }
+
+    .welcome__content{
+        max-width: 500px;
+    }
+
+    .welcome__content h1{
+        font-size: 54px;
+        line-height: 58px;
+        letter-spacing: 1.1px;
+    }
+
+    .welcome__primary-button{
+        padding: 16px 42px 16px 42px;
+        margin: 0px 41px 0px 0px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .welcome__secondary-button{
+        padding: 0px 10px 0px 0px;
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .welcome__image img{
+        width: 544px;
+        height: 742px;
+    }
+    
+    }
+
+
+
+@media (max-width: 1199.98px) {
+    .welcome__container{
+        padding: 67px 34px 65px 36px;
+    }
+
+    .welcome__content{
+        max-width: 460px;
+    }
+
+    .welcome__content h1{
+        font-size: 52px;
+        line-height: 52px;
+    }
+
+    .welcome__primary-button{
+        padding: 15px 40px 15px 40px;
+        margin: 0px 36px 0px 0px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .welcome__secondary-button{
+        padding: 0px 10px 0px 0px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .welcome__image img{
+        width: 504px;
+        height: 702px;
+    }
+
+    .welcome__buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 38px 0px 39px 0px;
+    }
+
+    .welcome__content li p{
+        font-size: 22px;
+        line-height: 26px;
+    }
+    
+    .welcome__content span{
+        font-size: 15px;
+        line-height: 25px;
+    }
+  }
+
+@media (max-width: 1039.98px) {
+    .welcome__container{
+        padding: 57px 30px 55px 32px;
+    }
+
+    .welcome__content{
+        max-width: 446px;
+    }
+
+    .welcome__content h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .welcome__primary-button{
+        padding: 15px 38px 15px 38px;
+        margin: 0px 34px 0px 0px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .welcome__secondary-button{
+        padding: 0px 10px 0px 0px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .welcome__image img{
+        width: 484px;
+        height: 682px;
+    }
+
+    .welcome__buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 38px 0px 39px 0px;
+    }
+
+    .welcome__content li p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .welcome__content span{
+        font-size: 14px;
+        line-height: 23px;
+    }
+  }
+
+@media (max-width: 991.98px) {
+
+    .welcome__container{
+        display:flex ;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        padding: 67px 31px 65px 33px;
+        margin: 0px auto 0px auto;
+    }
+
+
+    .welcome__image img{
+       margin-top: 40px;
+    }
+    
+    .welcome__content{
+        max-width: 484px;
+    }
+
+    .welcome__content h1{
+        font-size: 54px;
+        line-height: 58px;
+        letter-spacing: 1.1px;
+    }
+
+    .welcome__primary-button{
+        padding: 16px 42px 16px 42px;
+        margin: 0px 41px 0px 0px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .welcome__secondary-button{
+        padding: 0px 10px 0px 0px;
+        font-size: 19px;
+        line-height: 28px;
+    }
+    .welcome__image img{
+        width: 544px;
+        height: 742px;
+    }
+
+  }
+
+  @media (max-width: 767.98px) {
+    .welcome__container{
+        padding: 57px 31px 55px 33px;
+    }
+
+
+    .welcome__image img{
+       margin-top: 40px;
+    }
+
+
+    .welcome__content{
+        max-width: 480px;
+    }
+
+    .welcome__content h1{
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    .welcome__primary-button{
+        padding: 15px 38px 15px 38px;
+        margin: 0px 34px 0px 0px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .welcome__secondary-button{
+        padding: 0px 10px 0px 0px;
+        font-size: 19px;
+        line-height: 26px;
+    }
+    .welcome__image img{
+        width: 484px;
+        height: 642px;
+    }
+
+    .welcome__buttons{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 38px 0px 39px 0px;
+    }
+
+    .welcome__content li p{
+        font-size: 20px;
+        line-height: 24px;
+    }
+    
+    .welcome__content span{
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    }
+
+
+@media (max-width: 575.98px) {
+
+    .welcome__container{
+        padding: 37px 10px 35px 12px;
+    }
+
+    .welcome__content{
+        max-width: 320px;
+    }
+
+    .welcome__content h1{
+        font-size: 30px;
+        line-height: 28px;
+    }
+
+    .welcome__content h5{
+        font-size: 16px;
+        line-height: 22px;
+        margin-left: 49px;
+    }
+    .welcome__content h5::before{
+        content: "";
+        top: 10px;
+        width: 25px;
+     }
+     .welcome__content p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .welcome__primary-button{
+        padding: 8px 20px 8px 20px;
+        margin: 0px 14px 0px 0px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .welcome__secondary-button{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .welcome__image img{
+        width: 300px;
+        height: 400px;
+    }
+
+    .welcome__buttons{
+        margin: 28px 0px 29px 0px;
+    }
+
+    .welcome__content li p{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .welcome__content li::before{
+        content: "";
+        top: 0px;
+        left: -20px;
+     }
+    
+    .welcome__content span{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .welcome__content ul{
+        padding:0px 20px 0px 15px ;
+    }
+  }
+
+@media (max-width: 345.98px) { 
+    .welcome__container{
+        padding: 28px 10px 28px 12px;
+    }
+
+    .welcome__content{
+        max-width: 269px;
+    }
+
+    .welcome__content h1{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .welcome__content h5{
+        font-size: 14px;
+        line-height: 16px;
+        margin-left: 30px;
+    }
+    .welcome__content h5::before{
+        content: "";
+        top: 7px;
+        left: -30px;
+        width: 20px;
+     }
+     .welcome__content p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .welcome__primary-button{
+        padding: 8px 10px 8px 10px;
+        margin: 0px 14px 0px 0px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    
+    .welcome__image img{
+        width: 280px;
+        height: 360px;
+    }
+
+    .welcome__buttons{
+        margin: 28px 0px 29px 0px;
+    }
+
+    .welcome__content li p{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    .welcome__content li::before{
+        content: "";
+        width: 8px;
+        height: 8px;
+        top: 3.5px;
+        left: -12px;
+        background-image: url("../../assets/dot2.svg" );
+     }
+    
+    .welcome__content span{
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .welcome__content ul{
+        padding:0px;
+    }
+ }

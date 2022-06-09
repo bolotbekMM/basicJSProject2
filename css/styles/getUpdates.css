@@ -1,0 +1,234 @@
+.get-updates{
+    width: 100%;
+    background: #F4F8FF;
+}
+
+.get-updates__container{
+    max-width: 1440px;
+    margin: 0px auto;
+    padding: 120px 70px;
+    
+}
+
+.get-updates__box{
+    width: 100%;
+    height: 100%;
+    padding: 96px 150px 115px 150px;
+    background: #FFCA42;
+    box-shadow: 0px 0px 19px rgba(0, 0, 0, 0.18);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.get-updates__content{
+    max-width: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.get-updates__content h3{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1B3764;
+}
+
+.get-updates__content img{
+    margin: 23px 0px 25px 0px;
+}
+
+.get-updates__content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #1B3764;
+    margin: 0px 0px 49px 0px;
+
+}
+
+.get-updates__form{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.get-updates__form input{
+    width: 65.6%;
+    height: 70px;
+    padding: 19px 39px 20px 39px;
+    background: #FFFFFF;
+    border: 1px solid #DCE1E9;
+    border-radius: 0px;
+    outline: none;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.18px;
+
+    color: #1B3764;
+}
+
+.get-updates__form input::placeholder{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    letter-spacing: 0.18px;
+
+    color: #B4C7E7;
+}
+.get-updates__form button{
+    width: 32.8%;
+    height: 68px;
+    outline: none;
+    background: #1B3764;
+    border: 2px solid #1B3764;
+    border-radius: 0px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.18px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 991.98px) {
+    .get-updates__container{
+        padding: 60px 30px;
+        
+    }
+    .get-updates__content h3{
+       
+        font-size: 36px;
+        line-height: 36px;
+       
+    }
+
+    .get-updates__form input{
+        width: 65.6%;
+        height: 50px;
+        padding: 10px 19px 10px 19px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    
+    .get-updates__form input::placeholder{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .get-updates__form button{
+        width: 32.8%;
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+  }
+
+@media (max-width: 865.98px) {
+    .get-updates__box{
+        padding: 65px 70px 65px 70px;
+    }
+    
+  }
+
+@media (max-width: 575.98px) { 
+    .get-updates__box{
+        padding: 50px 40px 55px 40px;
+    }
+    .get-updates__content h3{
+       
+        font-size: 28px;
+        line-height: 36px;
+       
+    }
+
+    .get-updates__form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .get-updates__form input{
+        width: 90%;
+        height: 40px;
+        padding: 10px 19px 10px 19px;
+        background: #FFFFFF;
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .get-updates__form input::placeholder{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .get-updates__form button{
+        width: 90%;
+        height: 38px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+ }
+
+@media (max-width: 480.98px) {
+    .get-updates__box{
+        padding: 50px 30px 50px 30px;
+    }
+    .get-updates__content h3{
+        font-size: 26px;
+        line-height: 32px;
+       
+    }
+    
+    .get-updates__form input{
+        width: 100%;
+           
+    }
+    
+    .get-updates__form input::placeholder{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .get-updates__form button{
+        width: 100%;
+    }
+    .get-updates__content p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+ }
+
+ @media (max-width: 380.98px) {
+    .get-updates__box{
+        padding: 30px 10px 30px 10px;
+    }
+    .get-updates__container{
+        padding: 50px 20px;
+        
+    }
+    
+ }
+
+  

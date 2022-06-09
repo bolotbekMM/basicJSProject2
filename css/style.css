@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&family=Inter&family=Poppins:wght@100;200;300;400&display=swap');
+
+@import "./styles/header.css"; 
+@import "./styles/welcome.css"; 
+@import "./styles/authorBook.css"; 
+@import "./styles/aboutAuthor.css"; 
+@import "./styles/trust.css"; 
+@import "./styles/getBook.css"; 
+@import "./styles/learn.css"; 
+@import "./styles/getUpdates.css"; 
+@import "./styles/footer.css"; 
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-weight: 400;
+    text-decoration:none;
+}
+

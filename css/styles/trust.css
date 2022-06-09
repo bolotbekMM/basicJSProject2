@@ -1,0 +1,126 @@
+.trust{
+    width: 100%;
+}
+
+
+
+.trust__container{
+    max-width: 1440px;
+    margin: 0px auto ;
+    padding: 126px 74px 128px 78px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trast__title{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.trast__title h3{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50px;
+
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1B3764;
+}
+
+.trast__title img{
+   margin: 23px 0px 50px 0px;
+   align-items: center;
+}
+
+.trast__box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.trast__boxes{
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.trast__content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.trast__content h4{
+    font-family: 'Cardo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #1B3764;
+
+    margin: 20px 0px;
+}
+.trast__content p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    text-align: center;
+    color: #969AA0;
+
+
+}
+
+@media (max-width: 1390.98px) {
+    .trast__box{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .trast__boxes{
+      margin-bottom: 50px;
+    }
+
+  }
+
+@media (max-width: 991.98px) {
+    .trust__container{
+        padding: 66px 20px 68px 28px;
+       
+    }
+
+    .trast__title h3{
+        font-size: 38px;
+        line-height: 42px;
+    }
+  }
+
+@media (max-width: 767.98px) {
+    .trast__title h3{
+        font-size: 32px;
+        line-height: 32px;
+    }
+  }
+
+@media (max-width: 575.98px) {
+    .trast__title h3{
+        font-size: 26px;
+        line-height: 32px;
+    }
+  }
+
+@media (max-width: 319.98px) {  }
+

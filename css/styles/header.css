@@ -1,0 +1,141 @@
+.header{
+    width: 100%;
+    height: 100%;
+    background-color: #1B3764;
+
+}
+
+.header__container{
+    margin: 0px auto 0px auto;
+    max-width: 1440px;
+    min-height: 100%;
+    padding: 22px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo-box{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 308.5px;
+}
+.header__socmedia{
+    width: 155px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav{
+    width: 731px;
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.header_nav ul{
+    width: 402px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    list-style: none;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.17px;
+    color: #F6F8FC;
+    
+}
+
+.header_nav a{
+   
+    font-family: 'Inter';
+    font-size: 17px;
+    line-height: 26px;
+    letter-spacing: 0.17px;
+    color: #F6F8FC;
+    
+}
+
+.header__buttons{
+    width: 290px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__buttons button{
+    background: #FFCA42;
+    border: 2px solid #FFCA42;
+    border-radius: 0px;
+    padding: 18px 52px 18px 52px;
+    cursor: pointer;
+
+    font-family: 'Cardo';
+    font-size: 19px;
+    line-height: 28px;
+
+    letter-spacing: 0.57px;
+    text-transform: capitalize;
+
+    color: #1B3764;
+}
+
+.header__burger{
+    display: none;
+}
+
+@media (max-width: 1366px) {
+    .header__container{
+        padding: 22px 50px;
+    }
+  }
+
+@media (max-width: 1220px) {
+    .header__container{
+        padding: 22px 20px;
+    }
+
+    .header_nav ul{
+        width: 350px;
+    }
+
+    .header_nav{
+        width: 631px;
+    }
+
+    .header__buttons{
+        width: 230px;
+    }
+
+    .header__buttons button{
+        padding: 10px 32px 10px 32px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .header__logo-box{
+        width: 290px;
+    }
+  }
+
+@media (max-width: 991.98px) {
+    .header_nav{
+        display: none;
+    }
+    .header__burger{
+        display: block;
+    }
+  }
+
+@media (max-width: 474.98px) {
+    .header__socmedia{
+        display: none;
+    }
+  }
